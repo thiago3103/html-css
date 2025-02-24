@@ -1,0 +1,40 @@
+@charset "UTF-8";
+*{
+    text-align: justify;
+}
+main{
+    background: #7dcace;
+    padding: 15px;
+    box-shadow: 5px 5px 15px black;
+}
+body{
+    margin: auto;
+    background-image:linear-gradient(to top, rgb(128, 112, 59), #3e8386 );
+    padding: 15px;
+    
+}
+h1#novo{
+    color: #e6ec85;
+    background-color: #515514;
+    text-align: center;
+    border: 5px solid black;
+    width: 30em;
+    margin: auto;
+    border-radius: 15px;
+}
+h1{
+    color: #3e3f2f;
+}
+
+h2{
+    color:#73774B ;
+}
+h2.avançado{
+    color: red;
+}
+h2.intermediario{
+    color: pink;
+}
+h2.basico{
+    color: blue;
+}

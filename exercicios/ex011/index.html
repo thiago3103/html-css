@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>abrir essas imagem de varios tamanhos </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png">
+        <source media="(max-width: 1000px)" srcset="imagens/foto-m.png">
+        <img src="imagens/foto-g.png" alt="">
+    </picture>
+    <h1>Reproduzindo audios</h1>
+    <p>vamos aprender a Reproduzir audio em Html5.</p>
+    <audio preload=" metadata" autoplay controls>
+        <source src="midia/musicaOruan.mp3" type="audio/mpeg">
+        <p>seu servido não consegue Reproduzir audio <a href="midia/musicaOruan.mp3">Clique</a> aqui para baixar</p>
+    </audio>
+</body>
+</html>
